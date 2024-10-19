@@ -108,3 +108,44 @@ ul li span{
 ul li span:hover{
     background-color: lightgray;
 }
+
+@media screen and (max-width: 500px){
+    #input-container{
+        padding-left: 0px;
+    }
+    .todo-app{
+        width: 100%;
+        max-width: 270px;
+    }
+    #input-container input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    #input-container button{
+        border: none;
+        height: 50px;
+        outline: none;
+        background: transparent;
+        padding: 10px 40px;
+        background-color: #af7eeb;
+        border-radius: 40px;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+    }
+
+    ul li{
+        padding: 12px 5px 12px 0px;
+    }
+    ul li::before{
+        left: -30px;
+    }
+    ul li span{
+        right:10px;
+    }
+}
