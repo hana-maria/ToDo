@@ -114,7 +114,7 @@ ul li span:hover{
         padding-left: 0px;
     }
     .todo-app{
-        width: 80%;
+        width: 100%;
         max-width: 270px;
     }
     #input-container input{
@@ -127,16 +127,8 @@ ul li span:hover{
     }
     
     #input-container button{
-        border: none;
         height: 50px;
-        outline: none;
-        background: transparent;
-        padding: 10px 40px;
-        background-color: #af7eeb;
-        border-radius: 40px;
-        font-size: 16px;
-        cursor: pointer;
-        color: white;
+        padding: 10px 30px;
     }
 
     ul li{
