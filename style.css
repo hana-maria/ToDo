@@ -140,12 +140,5 @@ ul li span:hover{
         padding: 12px 5px 12px 0px;
         font-size: 14px;
     }
-    
-    ul li::before{
-        left: -30px;
-    }
-    
-    ul li span{
-        right:10px; 
-    }
+
 }
