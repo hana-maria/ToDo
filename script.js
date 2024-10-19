@@ -22,8 +22,8 @@ listContainer.addEventListener('click',function(e){
         e.target.classList.toggle('checked');
         saveData()
     }
-    else if(e.target.tagName === 'SPAN'){
-        e.target.parentElement.remove();
+    else if(e.target.tagName === 'SPAN' || e.target.tagName === 'I'){
+        e.target.closest('li').remove();
         saveData()
     }
 }, false);
