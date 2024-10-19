@@ -124,11 +124,12 @@ ul li span:hover{
         background: transparent;
         padding: 10px;
         font-size: 15px;
+        margin-left: 2px;
     }
     
     #input-container button{
         height: 50px;
-        padding: 10px 30px;
+        padding: 10px 25px;
     }
 
     ul li{
